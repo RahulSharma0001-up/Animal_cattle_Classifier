@@ -1,0 +1,27 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e8f1ff" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <linearGradient id="cow" x1="300" y1="150" x2="900" y2="750" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#547cff" />
+      <stop offset="100%" stop-color="#7bc1ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)" />
+  <g opacity="0.95">
+    <ellipse cx="620" cy="540" rx="340" ry="120" fill="#d9e7ff" />
+    <ellipse cx="670" cy="320" rx="260" ry="200" fill="url(#cow)" />
+    <ellipse cx="540" cy="320" rx="140" ry="110" fill="#f4f7ff" />
+    <ellipse cx="750" cy="310" rx="80" ry="60" fill="#f4f7ff" />
+    <circle cx="520" cy="280" r="16" fill="#0f214f" />
+    <circle cx="760" cy="280" r="16" fill="#0f214f" />
+    <path d="M420 420 C450 360 520 370 560 420" stroke="#0f214f" stroke-width="18" stroke-linecap="round" />
+    <path d="M750 400 C780 340 870 350 900 420" stroke="#0f214f" stroke-width="18" stroke-linecap="round" />
+    <path d="M470 230 C430 180 390 210 370 270 C350 330 370 360 410 350" fill="#547cff" />
+    <path d="M830 230 C870 180 910 210 930 270 C950 330 930 360 890 350" fill="#7bc1ff" />
+    <circle cx="350" cy="240" r="20" fill="#ffe7d0" />
+    <circle cx="920" cy="260" r="24" fill="#fff2d8" />
+  </g>
+</svg>
